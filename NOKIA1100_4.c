@@ -4,6 +4,7 @@
 
 #include "lib/nokia1100_lcd_lib.h"	// Подключаем драйвер LCD-контроллера NOKIA1100
 
+
 int main(void)
 {
 
