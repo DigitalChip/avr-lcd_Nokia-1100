@@ -2,7 +2,7 @@
 #include <util/delay.h>
 #include <avr/pgmspace.h>
 
-#include "nokia1100_lcd_lib.h"	// Подключаем драйвер LCD-контроллера NOKIA1100
+#include "nokia1100_lcd_lib.h"	// РџРѕРґРєР»СЋС‡Р°РµРј РґСЂР°Р№РІРµСЂ LCD-РєРѕРЅС‚СЂРѕР»Р»РµСЂР° NOKIA1100
 
 int main(void)
 {
@@ -15,10 +15,10 @@ int main(void)
   {
 	nlcd_GotoXY(0,0);
 
-	nlcd_PrintF(PSTR("ПИШЕМ КИРИЛЛИЦЕЙ")); // Другой способ задания строк в программной памяти
+	nlcd_PrintF(PSTR("РџРРЁР•Рњ РљРР РР›Р›РР¦Р•Р™")); // Р”СЂСѓРіРѕР№ СЃРїРѕСЃРѕР± Р·Р°РґР°РЅРёСЏ СЃС‚СЂРѕРє РІ РїСЂРѕРіСЂР°РјРјРЅРѕР№ РїР°РјСЏС‚Рё
 	nlcd_PrintF(PSTR("----------------"));
 	nlcd_PrintF(PSTR(" DigitalChip.ru "));
-	nlcd_PrintF(PSTR("  представляет  "));
+	nlcd_PrintF(PSTR("  РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚  "));
 	nlcd_PrintF(PSTR(" NOKIA 1100 LCD "));
 	nlcd_PrintF(PSTR("  demonstration "));
 	nlcd_PrintF(PSTR("----------------"));
