@@ -1,3 +1,5 @@
+![preview](preview.jpg)
+
 # Библиотека для микроконтроллеров AVR для подключения экранов от телефонов Nokia
 
 >**Более подробно о подключении экранов и библиотеке:**
@@ -5,6 +7,11 @@
 >- [Подключение дисплея от Nokia 1100. Часть 2.](https://digitalchip.ru/podklyuchenie-displeya-ot-nokia-1100-chast-2/)
 >- [Работаем с дисплеем от Nokia 1100 в графическом режиме](https://digitalchip.ru/rabotaem-s-displeem-ot-nokia-1100-v-graficheskom-rezhime/)
 >- [Описание функций графической библиотеки для LCD-экрана от Nokia 1100](http://digitalchip.ru/opisanie-funktsiy-graficheskoy-biblioteki-dlya-lcd-ekrana-ot-nokia-1100)
+>- [Подключение дисплеев Nokia](https://digitalchip.ru/podklyuchenie-displeev-nokia-1110-1110i-1200-1202-1203-1112-1116-2660-2760-6085/)
+
+## Поддерживаемые экраны
+Поддерживаеются экраны от телефонов Nokia 1110/1110i/1200/1202/1203/1112/1116/2660/2760/6085. 
+Т.е. экраны, которые управляются контроллером PCF8814.
 
 
 ## Варианты и версии библиотеки
