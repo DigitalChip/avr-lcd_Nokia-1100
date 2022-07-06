@@ -2,7 +2,7 @@
 #include <util/delay.h>
 #include <avr/pgmspace.h>
 
-#include "lib/nokia1100_lcd_lib.h"	// Подключаем драйвер LCD-контроллера NOKIA1100
+#include "lib/nokia1100_lcd_lib.h"	// Подключаем драйвер LCD-контроллера NOKIA1100 (графическая библиотека 2.x)
 
 
 int main(void)
